@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  overflow-x: hidden;
+  background-image: url("../Assets/book-shelf.jpg");
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.content {
+  max-width: 40rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header-video video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: .85;
+}
+
+.header-content {
+  z-index: 2;
+}
+
+.header-content h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  font-family: 'Lobster', cursive;
+}
+
+.header-content p {
+  font-size: 1.5rem;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  background: #39c421;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  position: relative;
+}
+.btn-uni {
+  background: #3840d2;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  position: relative;
+}
+
+@media (max-width: 960px) {
+  .content {
+    padding: 0 3rem 0 3rem;
+  }
+}
+
+.main-header {
+      text-align: center;
+      font-family: 'Irish Grover', cursive;
+      font-family: 'Qahiri', sans-serif;
+      font-family: 'Rampart One', cursive;
+      font-size: xx-large;
+      color:rgb(5, 90, 57);
+      margin-top:0%;
+      margin-right: 500px;
+      margin-bottom: auto;
+      margin-left:  250px;
+    
+    }
+  
+    .nosotros-info {
+      margin-bottom: 10px;
+        color: black;
+        text-align: center;
+        line-height: 20px;
+        font-size: 15px;
+        padding: 15px;
+        margin-top: 10em;
+        font-weight: 1000;
+        line-height: 1.5;
+        font-weight: bolder 900;
+        font-family: 'Irish Grover', cursive;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Qahiri', sans-serif;
+        font-family: 'Rampart One', cursive;
+        font-family: 'Saira Condensed', sans-serif;
+      }
+  
+    h1, h2{
+      padding: auto;
+      margin-left: 2.5%;
+      text-align: center;
+      font-family: 'Irish Grover', cursive;
+      font-family: 'Permanent Marker', cursive;
+      font-family: 'Qahiri', sans-serif;
+      font-family: 'Rampart One', cursive;
+      font-family: 'Saira Condensed', sans-serif;
+      color: white;
+    }
+      
+    .navegacion {
+        width: 45%;
+        height: 50px;
+        margin: 30px;
+        padding-top: 1.5%;
+        background-color: white;
+        text-align: center;
+        margin-left: auto; 
+        margin-right: auto;
+      }
+  
+  .navegacion ul {
+      list-style-type: none;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .menu > li {
+      position: relative; 
+      display: inline-block;
+  
+  }
+  
+  .menu > li > a {
+      display: block;
+      padding: 100px 70x;
+      color:rgb(2, 73, 26);
+      font-family: sans-serif;
+      text-decoration: none;
+  }
+  
+  .menu li a:hover {
+      color:rgb(5, 77, 17);
+      transition: all .3s;
+  
+  }
+  
+  .submenu {
+      position: absolute;
+      background-color: rgb(241, 247, 244);
+      width: 250%;
+      display: none;
+  }
+  
+  .submenu li a{
+      display: block;
+      padding: 10px;
+      color: olive;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-decoration: none;
+  }
+  
+  .menu li:hover .submenu{
+      display: block;
+  
+  }
+  
+  footer {
+    display: block;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    width:100vw;
+    background-color: rgb(3, 66, 14); 
+    color: white;
+    text-align: justify;
+  }
+  
+  p {
+    margin-top: auto;
+    margin-left: auto;
+    font-weight: bolder;
+  }
+  
+  .footer-text {
+    margin-top: 2%;
+    text-align: justify;
+    font-weight: 600;
+    margin-left: 0;
+  }
+  
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    color: white;
+  }
+  
+  .pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(221, 234, 236);
+   text-align: center;
+  }
+  
+  .pie-pagina .grupo-1 .red-social a:hover {
+    color: rgb(21, 124, 64);
+    transition: .2s;
+  }
+  
+  .pie-pagina .grupo-2 {
+    background-color: rgb(233, 235, 240);
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(252, 248, 248);
+  }
+  
+  .pie-pagina .grupo-2 small{
+    font-size: 15px;
+    color: rgb(2, 39, 27);
+  }
+  
+  
+  h4 {
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(134, 150, 16);
+  }
+  
+    
+  .info-servicio {
+   background-color:gray;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 5%;
+    -webkit-box-shadow: 24px 10px 17px 0px rgba(9,36,2,1);
+    -moz-box-shadow: 24px 10px 17px 0px rgba(9,36,2,1);
+    box-shadow: 24px 10px 17px 0px rgb(60, 31, 2);
+    }
+  
+  .info-servicio:hover {
+  transition: .3s;
+  background-color: yellow;
+  transform:scale(1.1);
+  }
+  
+  .servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 2.5%;
+    font-family: 'Irish Grover', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Qahiri', sans-serif;
+    font-family: 'Rampart One', cursive;
+    font-family: 'Saira Condensed', sans-serif;
+  }
+  
+  .servicios {
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  .text-decoration {
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width:800px){
+    .pie-pagina .grupo-1 {
+     width:100%;
+     grid-template-columns: repeat (1, 1fr);
+     grid-gap: 30px;
+     padding: 35px 0px;
+    }
+  
+    .main-header {
+      width: 20%;
+      text-align: center;
+    }
+  }
+
+
